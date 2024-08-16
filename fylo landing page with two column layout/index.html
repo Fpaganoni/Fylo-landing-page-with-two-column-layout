@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ENCABEZADO, NAVEGACION -->
+    <header class="hero">
+      <nav class="nav container">
+        <figure class="hero_logo">
+          <img src="images/logo.svg" class="hero_img" />
+        </figure>
+
+        <a href="#" class="nav_link">Features</a>
+        <a href="#" class="nav_link">Team</a>
+        <a href="#" class="nav_link">Sign</a>
+      </nav>
+
+      <section class="hero_main container">
+        <figure class="hero_picture">
+          <img src="images/illustration-1.svg" class="hero_img" />
+        </figure>
+
+        <div class="hero_texts">
+          <h3 class="hero_title">
+            All your files in one secure location, accessible anywhere.
+          </h3>
+          <p class="hero_paragraph">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+
+          <form action="" class="hero_contact">
+            <input
+              type="email"
+              placeholder="Enter your email..."
+              class="hero_input"
+            />
+            <input
+              type="submit"
+              value="Get Started"
+              class="hero_input hero_input-cta"
+            />
+          </form>
+        </div>
+      </section>
+    </header>
+
+    <!-- MAIN DE LA PAGINA, PRIMERA SECCION -->
+    <main class="main">
+      <secttion class="productive">
+        <div class="productive_container container">
+          <figure class="productive_picture">
+            <img src="images/illustration-2.svg" class="productive_img" />
+          </figure>
+
+          <section class="productive_main">
+            <div class="productive_texts">
+              <h2 class="productive_title">
+                Stay productive, wherever you are
+              </h2>
+              <p class="productive_paragraph">
+                Never let location be an issue when accessing your files. Fylo
+                has you covered for all of your file storage needs.
+              </p>
+              <p class="productive_paragraph">
+                Securely share files and folders with friends, family and
+                colleagues for live collaboration. No email attachments
+                required!
+              </p>
+              <a href="#" class="productive_cta">
+                See how Fylo works
+                <img src="images/icon-arrow.svg" class="productive_arrow" />
+              </a>
+            </div>
+
+            <article class="productive_testimony">
+              <img src="images/icon-quotes.svg" class="productive_quotes" />
+              <p class="productive_review">
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+
+              <div class="productive_card">
+                <img src="images/avatar-testimonial.jpg" class="card_img" />
+                <div class="productive_info">
+                  <h4 class="productive_name">Kyle Burton</h4>
+                  <p class="productive_job">Founder & CEO, Huddle</p>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+      </secttion>
+
+      <section class="newsletter">
+        <div class="newsletter_container container">
+          <div class="newsletter_texts">
+            <h2 class="newsletter_title">Get early access today</h2>
+            <p class="newsletter_paragraph">
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+          </div>
+
+          <form action="" class="newsletter_form">
+            <input
+              type="email"
+              placeholder="email@example.com"
+              class="newsletter_input input"
+            />
+            <input
+              type="submit"
+              value="Get Started For Free"
+              class="newsletter_submit input"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <section class="footer_container container">
+        <figure class="footer_picture">
+          <img src="images/logo-white.svg" class="footer_logo" />
+        </figure>
+
+        <div class="footer_contact">
+          <div class="footer_info">
+            <p class="footer_info">
+              <img src="images/icon-phone.svg" class="footer_icon" />
+              Phone: +1-543-123-4567
+            </p>
+
+            <p class="footer_info">
+              <img src="images/icon-email.svg" class="footer_icon" />
+              example@fylo.com
+            </p>
+          </div>
+        </div>
+
+        <nav class="footer_nav">
+          <a href="#" class="footer_link">About Us</a>
+          <a href="#" class="footer_link">Jobs</a>
+          <a href="#" class="footer_link">Press</a>
+          <a href="#" class="footer_link">Blog</a>
+        </nav>
+
+        <nav class="footer_nav">
+          <a href="#" class="footer_link">Contact Us</a>
+          <a href="#" class="footer_link">Terms</a>
+          <a href="#" class="footer_link">Privacy</a>
+        </nav>
+
+        <div class="footer_social">
+          <a href="#">
+            <img src="images/instagram.svg" class="footer_img" />
+          </a>
+
+          <a href="#">
+            <img src="images/X.svg" class="footer_img" />
+          </a>
+
+          <a href="#">
+            <img src="images/facebook.svg" class="footer_img" />
+          </a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
